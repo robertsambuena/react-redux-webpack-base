@@ -58,6 +58,8 @@
 
 	var _todo2 = _interopRequireDefault(_todo);
 
+	__webpack_require__(161);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_reactDom2.default.render(_react2.default.createElement(_todo2.default, { list: ['nicela'] }), document.getElementById('main'));
@@ -19729,12 +19731,9 @@
 	            if (!text) return;
 
 	            this.props.list.push(text);
-
 	            this.setState({
 	                text: ''
 	            });
-
-	            this.state.text;
 	        }
 	    }, {
 	        key: 'handleInputChange',
@@ -19742,8 +19741,6 @@
 	            this.setState({
 	                text: e.target.value
 	            });
-
-	            console.log(this.state, e.target.value);
 	        }
 
 	        // compile
@@ -19808,6 +19805,12 @@
 
 /***/ },
 /* 160 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 161 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
